@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    if(currentUser)
+      h1 Welcome #{currentUser.username} to projects page
+      p Please <a href="/projects/create">Create new</a>
+    else
+      h1 Welcome to the projects page
+    ul
+      each project in projects
+        li
+          a(href="/projects/#{project._id}") #{project.name}
