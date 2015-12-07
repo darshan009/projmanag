@@ -1,0 +1,26 @@
+{
+  "name": "projmanag",
+  "version": "0.0.1",
+  "description": "project management-promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshan009/projmanag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshan009/projmanag/issues"
+  },
+  "homepage": "https://github.com/darshan009/projmanag#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect-mongo": "^0.8.2",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mongoose": "^4.2.8"
+  }
+}
